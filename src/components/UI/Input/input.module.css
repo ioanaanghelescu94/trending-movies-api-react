@@ -1,0 +1,21 @@
+.input-wrapper {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.normal-input {
+    font-size: 1rem;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    padding: .6rem;
+    border-bottom: 1px solid #1B1464;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #1B1464;
+    opacity: 1; /* Firefox */
+  }

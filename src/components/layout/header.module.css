@@ -1,0 +1,33 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+    padding: 1rem;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.2);
+}
+
+.header-title {
+    color: #1B1464;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.portal-search--large {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .header {
+        justify-content: left;
+    }
+    .header-title-container {
+        margin-left: 2rem;
+    }
+    .portal-search--large {
+        display: block;
+        width: 15rem;
+        margin-left: auto;
+    }
+    
+}
